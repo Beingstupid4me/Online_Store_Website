@@ -26,7 +26,7 @@
 - **Express.js**: A minimal and flexible Node.js web application framework providing a robust set of features for web and mobile applications.
 
 **Database**
-- **MySQL**: A powerful, open-source relational database management system based on SQL. Our application uses well-thought-out tables and relations to ensure data integrity with serializable level transactions ingrained in it.
+- **MySQL**: A powerful, open-source relational database management system based on SQL. Our application uses well-thought-out tables and relations to ensure data integrity with serializable level transactions ingrained in it and multiple triggers maintaining data integrity of the database.
 
 ## 🚀 Getting Started
 
