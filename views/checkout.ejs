@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12"</div>>
+            <h1>Checkout</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% products.forEach(function(product) { %>
+                        <tr>
+                            <td><%= product.Product_name %></td>
+                            <td><%= product.quantity %></td>
+                            <td><%= product.Average_price %></td>
+                            <td><%= product.quantity * product.Average_price %></td>
+                        </tr>
+                    <% }); %>                    
+                </tbody>
+            </table>
+            <h3>Total: <%= total %></h3>
+            <a href="/checkout" class="btn btn-primary">Checkout</a>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h2>Product Details</h2>
+    <p>Product Name: <span id="productName">Product Name</span></p>
+    <p>Price: $<span id="productPrice">0.00</span></p>
+    
+</div>
+
+<%- include('partials/footer') %>
