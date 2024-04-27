@@ -1,6 +1,7 @@
 # 🩺 Clinical Flex: Your Online Pharmacy Solution
 
-!Clinical Flex Homepage(./image.png)
+
+![Clinical Flex Homepage](./image.png?raw=true "Title")
 
 ## 🌐 Overview
 
@@ -31,13 +32,13 @@
 
 1. **Clone the repository**:
 
-git clone https://github.com/yourusername/clinical-flex.git
+git clone https://github.com/Beingstupid4me/Online_Store_Website.git
 
 2. **Install dependencies**:
 
 npm install
 
-3. **Set up your MySQL database** and update the configuration details in the `config/db.config.js` file.
+3. **Set up your MySQL database** and update the configuration details in the `db/creation_population.sql` file.
 
 4. **Start the server**:
 
